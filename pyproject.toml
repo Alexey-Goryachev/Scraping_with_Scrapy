@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-web-home-work-9"
+version = "0.1.0"
+description = ""
+authors = ["Alexey-Goryachev <goryachev.alex00@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_web_home_work_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.10.0"
+pymongo = "^4.4.1"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
